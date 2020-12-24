@@ -1,0 +1,66 @@
+body {
+  text-align: center;
+  background-color: #011F3F;
+}
+
+#level-title {
+  font-family: 'Press Start 2P', cursive;
+  font-size: 3rem;
+  margin:  5%;
+  margin-top: 2%;
+  color: #FEF2BF;
+}
+
+.container {
+  display: block;
+  width: 40%;
+  margin:  50px auto;
+  transform:rotate(45deg);
+}
+
+p{
+  font-size: 50px;
+  font-weight: bold;
+  transform: rotate(315deg);
+}
+
+.btn {
+  font-family: 'Ubuntu', sans-serif;
+  margin: 25px;
+  display: inline-block;
+  height: 170px;
+  width: 170px;
+  border: 10px solid black;
+  border-radius: 20%;
+}
+
+.game-over {
+  background-color: red;
+  opacity: 0.8;
+}
+
+.red {
+  background-color: rgb(255, 88, 88);
+}
+
+.green {
+  background-color: rgb(121, 255, 121);
+}
+
+.blue {
+  background-color: rgb(106, 188, 255);
+}
+
+.yellow {
+  background-color: rgb(255, 255, 120);
+}
+
+
+
+
+
+
+.pressed {
+  box-shadow: 0 0 20px white;
+  background-color: grey;
+}
